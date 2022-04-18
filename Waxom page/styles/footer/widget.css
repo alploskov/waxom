@@ -1,0 +1,38 @@
+.widget {
+    width: 300px;
+}
+
+.widget h4 {
+    font-family: "raleway-bold", "Arial", sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.widget-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.widget-block img {
+    display: block;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.widget-block img:nth-child(2) {
+    padding-right: 0;
+}
+
+.widget-block img:nth-child(3) {
+    padding-bottom: 0;
+}
+
+.widget-block img:last-child {
+    padding: 0;
+}
+
+.widget-block img:hover {
+    opacity: 0.5;
+}

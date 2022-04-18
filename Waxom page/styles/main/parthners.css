@@ -1,0 +1,14 @@
+.partners {
+    background: url(../../images/bacground.png) no-repeat;
+    background-size: auto 100%;
+    padding: 140px 0 130px 0;
+}
+
+.partners-block {
+    text-align: center;
+}
+
+.partners-img {
+    display: inline-block;
+    margin-right: 90px;
+}

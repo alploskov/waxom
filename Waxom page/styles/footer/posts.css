@@ -1,0 +1,54 @@
+.recent-block p {
+    font-family: "raleway-bold", "Arial", sans-serif;
+    color: #545454;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.recent-block {
+    width: 270px;
+    margin-right: 30px;
+}
+
+.recent-block h4 {
+    font-family: "raleway-bold", "Arial", sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.post {
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #252525;
+}
+
+.post:last-child {
+    border: none;
+}
+
+.recent-block span {
+    font-family: "montserrat-light", "Arial", sans-serif;
+    color: #363636;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.recent-block p {
+    font-family: "raleway-bold", "Arial", sans-serif;
+    color: #545454;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.post:hover span {
+    color: #ffffff;
+}
+
+.post:hover p {
+    color: #c7b299;
+}

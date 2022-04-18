@@ -1,0 +1,53 @@
+.stat {
+    background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.metric {
+    padding: 0 35px 0 35px;
+    text-align: center;
+    position: relative;
+    width: 150px;
+}
+
+.metric .icon {
+    fill: #c7b299;
+    display: block;
+    margin: 0 auto;
+}
+
+.metric .value {
+    font-family: "montserrat-extralight", "Arial", sans-serif;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 36px;
+    text-align: center;
+    margin: 30px 0 20px 0;
+    display: block;
+}
+
+.metric .name {
+    font-family: "montserrat-light", "Arial", sans-serif;
+    color: #c7b299;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.metric .name::after {
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    width: 30px;
+    height: 2px;
+    display: block;
+    top: 180px;
+    left: 95px;
+}

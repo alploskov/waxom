@@ -1,0 +1,27 @@
+
+@media screen and (max-width: 600px) {
+    #nav-panel {
+        justify-content: space-between;
+    }
+    #desctop-menu {
+        display: none;
+    }
+    #mobile-menu-l {
+        display: block;
+    }
+    #mobile-menu:checked ~ header #nav-panel #desctop-menu{
+        display: flex;
+    }
+    header .content {
+        margin-top: 18%;
+    }
+    header .content h2 {
+        font-size: 16pt;
+    }
+    header .content h1 {
+        font-size: 16pt;
+    }
+    header .content p {
+        font-size: 12pt;
+    }
+}

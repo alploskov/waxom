@@ -1,0 +1,73 @@
+@media screen and (max-width: 600px) {
+    .projects-button {
+        width: 60%;
+    }
+    .projects-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects-article {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .services {
+        display: block;
+    }
+    .services-icon {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .services-txt::after {
+        display: none;
+    }
+    .img-center {
+        margin-left: 0;
+    }
+    .img-left {
+        display: none;
+    }
+    .img-right {
+        display: none;
+    }
+    .aside {
+        height: auto;
+        padding: 1%;
+    }
+    #features img {
+        display: none;
+    }
+    .stat {
+        display: block;
+    }
+    .stat .metric {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .stat .metric .name::after {
+        display: none;
+    }
+    .video,
+    .video-block {
+        height: auto;
+        max-height: 300px;
+    }
+    .video-block h3,
+    .video-block p {
+        display: none;
+    }
+    .recentposts-block {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .recentposts-button {
+        display: none;
+    }
+
+    .partners-img {
+        margin-right: 0;
+    }
+}

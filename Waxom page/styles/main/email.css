@@ -1,0 +1,27 @@
+#email {
+    background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: #ffffff;
+}
+#i-email {
+    height: 30px;
+    width: auto;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: #211b19;
+    color: #ffffff;
+}
+
+#b-email {
+    height: 50px;
+    width: auto;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: #4e3427;
+    color: #ffffff;
+}

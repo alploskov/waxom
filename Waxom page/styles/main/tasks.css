@@ -1,0 +1,28 @@
+#task-table,
+#task-sound {
+    background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+    color: white;
+    padding-bottom: 10px;
+}
+
+#task-sound audio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+#task-table table{
+    display: block;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 4px;
+    columns: 2;
+}
+th,
+td {
+    border: 1px solid white;
+    border-radius: 4px;
+}

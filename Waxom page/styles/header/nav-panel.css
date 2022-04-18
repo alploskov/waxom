@@ -1,0 +1,85 @@
+#nav-panel {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+#mobile-menu,
+#mobile-menu-l {
+    display: none;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-txt {
+    font-family: "raleway-regular", "Arial", sans-serif;
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 11px;
+}
+
+.logo svg {
+    fill: #ffffff;
+}
+
+
+
+#desctop-menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-item {
+    margin-right: 30px;
+    display: inline;
+}
+
+.menu-item:last-child {
+    margin-right: 63px;
+}
+
+.menu-item a {
+    text-transform: capitalize;
+    font-family: "montserrat-light", "Arial", sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.menu-item a:hover {
+    color: #c7b29a;
+}
+
+.header-icon {
+    display: flex;
+}
+
+.icon-cart {
+    background-image: url(../../images/icon-cart.png);
+    display: block;
+    width: 18px;
+    height: 24px;
+    margin-right: 28px;
+    opacity: 0.5;
+}
+
+.icon-search {
+    background-image: url(../../images/icon-search.png);
+    display: block;
+    width: 24px;
+    height: 24px;
+    opacity: 0.5;
+}
+
+.icon-search:hover,
+.icon-cart:hover {
+    opacity: 1;
+}

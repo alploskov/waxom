@@ -1,0 +1,26 @@
+@media screen and (max-width: 600px) {
+    .footer-top {
+        display: none;
+    }
+    .footer-bottom {
+        justify-content: start;
+    }
+    .copyright {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .copyright a {
+        border-left: 0;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .created {
+        justify-content: center;
+    }
+    .created p{
+        padding: 0 5px 0 5px;
+    }
+    .created p:nth-child(2) {
+        border: 0;
+    }
+}
