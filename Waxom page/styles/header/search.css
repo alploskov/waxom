@@ -1,0 +1,17 @@
+#search-form {
+    display: none;
+    background-color: transparent;
+    border: 1px white solid;
+    color: white;
+    outline: none;
+    height: 24px;
+    border-radius: 10px;
+    max-width: 170px;
+}
+#search:checked ~ #search-form {
+    display: block;
+}
+
+#search:checked ~ .header-icon .icon-search{
+    display: none;
+}

@@ -5,6 +5,9 @@
         padding: 10px 0 0 10px;
         flex-wrap: wrap;
     }
+    .menu-item a {
+        font-size: 14pt;
+    }
     #desctop-menu {
         display: none;
         flex-direction: column;
@@ -13,6 +16,9 @@
         margin-left: auto;
         margin-right: auto;
         width: 100%;
+    }
+    .slider-button {
+        top: 40%;
     }
     .header-icon,
     .menu-item:last-child {
@@ -36,7 +42,7 @@
         display: flex;
     }
     header .content {
-        margin-top: 18%;
+        margin-top: 10%;
     }
     header .content h2 {
         font-size: 16pt;
@@ -46,5 +52,14 @@
     }
     header .content p {
         font-size: 12pt;
+    }
+    header .slider {
+        margin-top: 20px;
+    }
+    #search:checked ~ .header-icon .icon-cart {
+        display: none;
+    }
+    #search-form {
+        margin-top: 5px;
     }
 }

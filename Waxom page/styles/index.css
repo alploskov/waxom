@@ -17,7 +17,7 @@ a {
 }
 
 .button {
-    width: 170px;
+    max-width: 170px;
     height: 53px;
     display: flex;
     border: 1px solid transparent;

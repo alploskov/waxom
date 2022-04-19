@@ -1,0 +1,8 @@
+#audio {
+    background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
